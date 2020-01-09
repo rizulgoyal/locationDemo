@@ -21,6 +21,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
      //   mapView.showsUserLocation = true
         
+        // new comment
+        
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
